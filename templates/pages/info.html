@@ -1,0 +1,52 @@
+{% extends "home.html" %}
+{% block content %}
+
+<div class="page-info">
+    <h1 class="page-title">{{ data.artist }}</h1>
+    <br>
+    <div class="row">
+        <div class="col-4">
+            <img width="400px" height="600px" src={{ data.image }} alt="Card image cap">
+        </div>
+        <div class="col-8">
+            <table class="table table-text">
+                <thead>
+                    <tr class="table-header">
+                        <th scope="col">
+                            <h3>Tytuł</h3>
+                        </th>
+                        <th scope="col">
+                            <h3>Text</h3>
+                        </th>
+                        <th scope="col">
+                            <h3>Język</h3>
+                        </th>
+                        <th scope="col">
+                            <h3>Rok</h3>
+                        </th>
+                        <th scope="col">
+                            <h3>Typ</h3>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in data.songs %}
+                    <tr>
+                        <td>{{item.title}}</td>
+                        <td>
+                            <a class="btn btn-success" href="drake/song/{{item.id}}" class="button">Otworz</a>
+                        </td>
+                        <td>{{item.language}}</td>
+                        <td>{{item.year}}</td>
+                        <td>{{item.type}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

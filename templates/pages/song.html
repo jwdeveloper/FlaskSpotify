@@ -1,0 +1,26 @@
+{% extends "home.html" %}
+{% block content %}
+
+<h1 class="page-title">{{ data.artist }}</h1>
+<br>
+<h1 class="page-sub-title">{{data.title}}</h1>
+
+<p class="song-div">{{data.text}}</p>
+
+
+<script>
+
+formatText();
+
+    function formatText()
+    {
+        element = $('p[class="song-div"]')
+        var text = element.text();
+        text = text.replace(/\r\n/g, '<br />').replace(/[\r\n]/g, '<br />');
+        //element.append(text)
+    }
+
+
+</script>
+
+{% endblock %}

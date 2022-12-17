@@ -1,0 +1,122 @@
+html * {
+  font-family:  Trebuchet MS, sans-serif !important;
+  font-weight: 10%;
+  font-style: normal;
+  font-stretch: narrower;
+}
+
+body {
+  background-color: rgb(10, 10, 10);
+}
+
+.container {
+  width: 100%;
+  background-color: rgb(10, 10, 10);
+  padding-top: 3em;
+}
+
+.header-title {
+
+  text-align: center;
+}
+
+.header-title-spotyfy {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.header {
+  width: auto;
+  color: white;
+  background-color: rgb(39, 148, 39);
+  padding-top: 75px;
+}
+
+.artist-card {
+  color: white;
+  background-color: rgb(39, 148, 39);
+  margin-bottom: 3em;
+}
+
+.artist-card:hover {
+  color: white;
+  background-color: rgb(68, 196, 68);
+  margin-bottom: 3em;
+  cursor: pointer;
+}
+
+.image-loader
+{
+  height: 300px;
+  text-align: center;
+  padding-top: 8em;
+}
+
+.image-loader-img
+{
+ 
+  width: auto;
+  height: 300px;
+  max-width: inherit
+}
+
+.image-loader-error
+{
+  height: 300px;
+  text-align: center;
+  padding-top: 8em;
+  background-color: black;
+}
+
+
+
+.page-sub-title 
+{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-bottom: 1em;
+  font-size: 1.5em;
+}
+
+.page-title {
+  color: rgb(39, 148, 39);
+  text-align: center;
+  font-size: 3em;
+  padding-bottom: 1em;
+}
+
+.song-div
+{
+  border-radius: 0.5em;
+  min-height: 40em;
+  padding: 1em;
+  background-color: rgb(75, 75, 75);
+  margin-left: 10em;
+  margin-right: 10em;
+  color: white;
+}
+.brown
+{
+  background-color:rgb(97, 48, 19);
+}
+
+.pink
+{
+  background-color:pink;
+}
+
+.table-text {
+  color: rgb(254, 255, 254);
+}
+
+.table-header {
+  border-radius: 10em;
+  color: rgb(39, 148, 39);
+  background-color: rgb(59, 59, 59);
+}
+
+
+
