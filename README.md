@@ -1,4 +1,4 @@
 # FlaskSpotify
 
-Author: Jacek Wolnewicz
+Univerity project
 Github: https://github.com/jwdeveloper/FlaskSpotify
